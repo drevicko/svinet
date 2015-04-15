@@ -719,7 +719,7 @@ LinkSampling::infer()
 	}
       }
       if (n % 1000 == 0) {
-	printf("\riteration %d: processing %d links", _iter, n);
+	printf("\riteration %d: processing %d links    ", _iter, n);
 	fflush(stdout);
       }
     }

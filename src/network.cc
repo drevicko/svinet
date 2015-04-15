@@ -106,7 +106,7 @@ Network::read(string s)
 
   if (_curr_seq != _env.n) {
     _single_nodes = _env.n - _curr_seq;
-    printf("n = %d, curr_seq = %d\n", _env.n, _curr_seq);
+    printf(", n = %d, curr_seq = %d\n", _env.n, _curr_seq);
     printf("+ Creating ids for %d single nodes\n", _env.n - _curr_seq);
     for (uint32_t c = _curr_seq, k = 0; c < _env.n; ++c, ++k)
       add(SINGLE_NODE_START_ID + k);
