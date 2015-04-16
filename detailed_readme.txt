@@ -190,6 +190,18 @@ Output files
 
 - lambda.txt: inferred posterior Beta parameters (community strengths)
 
+- validatoin.txt: columns are
+	iteration |
+	duration |
+	s/k | k |
+	szeros/kzeros | kzeros |
+	sones/kones | kones |
+	_zeros_prob * (szeros / kzeros) |
+        _ones_prob * (sones / kones) |
+        nshol
+       
+ - test.txt: columns the same as validation.txt
+
 Visualize link communities
 --------------------------
 
